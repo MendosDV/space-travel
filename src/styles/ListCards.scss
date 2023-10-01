@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+  .list-planetes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4em;
+  }
+}

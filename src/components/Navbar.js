@@ -1,4 +1,4 @@
-import './Navbar.scss';
+import '../styles/Navbar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShuttleSpace, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';

@@ -1,4 +1,4 @@
-import './SubTitle.scss'
+import '../../styles/Title.scss';
 
 function SubTitle ( { subTitleName }) {
   return (

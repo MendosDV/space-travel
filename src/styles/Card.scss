@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  margin-bottom: 1em;
+  border: solid 1px rgb(3, 4, 29);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s;
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  h5 {
+    font-size: 0.4em;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 0.8em;
+  }
+}
+
+.card:hover {
+  transition: 0.4s;
+  transform: scale(1.02);
+}
+
+.planete-content {
+  padding: 0 1em;
+  background-color: rgb(3, 4, 29);
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    img {
+      width: 160px;
+      height: 160px;
+    }
+
+    h5 {
+      font-size: 0.6em;
+      font-weight: 100;
+      letter-spacing: 2px;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+  }
+}

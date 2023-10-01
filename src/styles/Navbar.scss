@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   gap: 1em;
+  font-size: 0.8em;
 }
 
 .nav-links-container {
@@ -76,7 +77,6 @@
   }
 
   .nav-title {
-    font-size: 12px;
     gap: 0.5em;
   }
 }

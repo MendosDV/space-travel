@@ -1,4 +1,4 @@
-import './Button.scss'
+import '../styles/Button.scss';
 
 function Button ({ children, buttonClass }) {
   const buttonClasses = buttonClass ? `button ${buttonClass}` : 'button';

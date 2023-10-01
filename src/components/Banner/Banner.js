@@ -1,4 +1,4 @@
-import './Banner.scss';
+import '../../styles/Banner.scss';
 import Button from '../Button'
 import Title from './Title'
 import SubTitle from './SubTitle'
