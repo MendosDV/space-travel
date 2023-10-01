@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShuttleSpace, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Button from './Button'
 
 function Navbar({ burgerMenu }) {
   const [showNav, setShowNav] = useState(false);
@@ -29,7 +30,7 @@ function Navbar({ burgerMenu }) {
             <Link to="/" className='nav-item'>Home</Link>
             <Link to="/Services" className='nav-item'>Services</Link>
             <Link to="/about" className='nav-item'>About</Link>
-            <Link to="/signup" className='signup'>Sign Up</Link>
+            <Link to="/signup"><Button children="Sign Up"/></Link>
           </div>
         }
       </div>
@@ -45,8 +46,8 @@ function Navbar({ burgerMenu }) {
           <Link to="/Services" className='nav-item'>Services</Link>
           <Link to="/about" className='nav-item'>About</Link>
         </div>
-        <Link to="/signup" className='signup'>Sign Up</Link>
-      </div>
+        <Link to="/signup"><Button children="Sign Up"/></Link>
+        </div>
     </div>
   )
 }

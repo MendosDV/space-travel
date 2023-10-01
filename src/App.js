@@ -1,5 +1,6 @@
 import './App.scss';
 import Navbar from './components/Navbar';
+import Banner from './components/Banner/Banner';
 import React from 'react';
 import { useState, useEffect } from 'react';
 
@@ -27,8 +28,9 @@ function App() {
   return (
     <div>
       <Navbar burgerMenu={burgerMenu} />
+      <Banner secondButtonName={"WATCH TRAILER"} buttonName={"GET STARTED"} titleName={"TO INFINITY AND BEYOND"} subTitleName={"What are you waiting for ?"}/>
       <div className="container">
-        <p>Hello</p>
+        
       </div>
     </div>
   );

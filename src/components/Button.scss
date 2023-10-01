@@ -1,0 +1,52 @@
+.button {
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.4s;
+  text-align: center;
+  font-size: 0.6em;
+  padding: 0.5em 1em;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav-links-container {
+  .button {
+    font-size: 1em;
+  }
+}
+
+.nav-menu-show {
+  .button {
+    padding: 3vh;
+    width: 80vw;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.white-button:hover {
+  background-color: rgb(30, 40, 185);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 1em;
+  }
+}

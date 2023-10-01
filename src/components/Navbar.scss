@@ -35,22 +35,8 @@
   border-bottom: 1px solid white;
 }
 
-.signup {
-  border: solid 1px white;
-  padding: 0.5em 1em;
-  font-weight: 500;
-  transition: 0.4s;
-  text-decoration: none;
-  color: white;
-}
-
-.signup:hover {
-  background-color: white;
-  color: black;
-  transition: 0.4s;
-}
-
 .nav-menu-show {
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,10 +50,9 @@
   background-color: (rgba(24, 20, 20));
   transition: transform 2s ease-in-out;
 
-
   .nav-item {
     font-weight: 500;
-    width: 70%;
+    width: 70vw;
     padding: 3vh;
     text-align: center;
     border-radius: 8px;
@@ -77,15 +62,6 @@
     background-color: white;
     color: rgb(24, 20, 20);
     transition: 0.2s ease-in-out;
-  }
-
-  .signup {
-    font-weight: 500;
-    width: 70%;
-    padding: 3vh;
-    text-align: center;
-    border-radius: 8px;
-    border: solid 1px white;
   }
 }
 
