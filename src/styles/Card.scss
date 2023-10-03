@@ -7,8 +7,8 @@
   transition: 0.4s;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: contain;
   }
 
@@ -17,25 +17,61 @@
   }
 
   h5 {
-    font-size: 0.4em;
+    font-size: 0.2em;
     font-weight: 100;
     letter-spacing: 2px;
   }
 
   h3 {
+    font-size: 0.6em;
+    margin: 0;
+  }
+
+  p {
     font-size: 0.8em;
+    font-style: italic;
+  }
+
+  span {
+    font-weight: 900;
   }
 }
 
-.card:hover {
-  transition: 0.4s;
-  transform: scale(1.02);
+.rated-planete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+}
+
+.best-sale {
+  padding: 0.5em;
+  background-color: rgba(30, 40, 185, 0.578);
+  color: white;
+  text-align: center;
+  position: absolute;
+  font-size: 0.6em;
+  font-weight: 200;
+}
+
+.head-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4em;
 }
 
 .planete-content {
-  padding: 0 1em;
+  padding: 0.8em;
   background-color: rgb(3, 4, 29);
   width: 100%;
+}
+
+.book {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,7 +88,19 @@
     }
 
     h3 {
-      font-size: 1em;
+      font-size: 1.2em;
+    }
+
+    .planete-content {
+      padding: 0 1em;
+    }
+
+    .head-content {
+      margin-bottom: 0;
+    }
+
+    .best-sale {
+      font-size: 0.8em;
     }
   }
 }

@@ -1,0 +1,35 @@
+.buyItem {
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(0, 149, 0);
+  color: white;
+  padding: 0.4em 0.6em;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 0.2em;
+  font-size: 0.4em;
+}
+
+.buyItem:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .buyItem {
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(0, 149, 0);
+    color: white;
+    padding: 0.4em 1em;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 0.8em;
+  }
+
+  .buyItem:hover {
+    cursor: pointer;
+  }
+}

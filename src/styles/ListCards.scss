@@ -2,6 +2,13 @@
   .list-planetes {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 4em;
+  grid-gap: 2em;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .list-planetes {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
   }
 }

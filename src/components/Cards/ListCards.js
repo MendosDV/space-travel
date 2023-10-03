@@ -6,7 +6,7 @@ function ListCards () {
 
   return (
     <div className='list-planetes'>
-      {planeteList.map (({ name, id, image, type, diameter, distance, price }) =>
+      {planeteList.map (({ name, id, image, type, diameter, distance, price, rated, bestSale }) =>
         <div className="planete" key={id}>
           <Card
             name={name}
@@ -16,6 +16,8 @@ function ListCards () {
             diameter={diameter}
             distance={distance}
             price={price}
+            rated={rated}
+            bestSale={bestSale}
           />
         </div>
       )}
