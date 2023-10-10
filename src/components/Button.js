@@ -1,10 +1,10 @@
 import '../styles/Button.scss';
 
-function Button ({ children, buttonClass }) {
+function Button ({ children, buttonClass, onClick }) {
   const buttonClasses = buttonClass ? `button ${buttonClass}` : 'button';
 
   return (
-      <button className={buttonClasses} >{ children }</button>
+      <button onClick={onClick} className={buttonClasses} >{ children }</button>
   )
 }
 

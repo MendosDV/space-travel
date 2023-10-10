@@ -1,14 +1,22 @@
 @media screen and (min-width: 768px) {
   .list-planetes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+
+  .cart {
+    grid-column: span 2;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .list-planetes {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 3em;
+  }
+
+  .cart {
+    grid-column: span 3;
   }
 }

@@ -6,8 +6,9 @@ export const planeteList = [
     type: 'rock',
     diameter: 4879, // En kilomètres
     distance: 91700000, // En kilomètres depuis la Terre
-    price: 1, // Prix fictif pour un voyage
+    scale: 1, // Prix fictif pour un voyage
     rated: 3,
+    price: 9000
   },
   {
     name: 'Venus',
@@ -16,8 +17,9 @@ export const planeteList = [
     type: 'rock',
     diameter: 12104,
     distance: 41400000,
-    price: 2,
+    scale: 2,
     rated: 4,
+    price: 4000
   },
   {
     name: 'Pluto',
@@ -26,8 +28,9 @@ export const planeteList = [
     type: 'rock',
     diameter: 2370,
     distance: 4776000000,
-    price: 3,
+    scale: 3,
     rated: 3,
+    price: 10000
   },
   {
     name: 'Neptune',
@@ -36,9 +39,10 @@ export const planeteList = [
     type: 'gas',
     diameter: 49532,
     distance: 4300000000,
-    price: 4,
+    scale: 4,
     bestSale: true,
     rated: 4,
+    price: 5000
   },
   {
     name: 'Uranus',
@@ -47,8 +51,9 @@ export const planeteList = [
     type: 'gas',
     diameter: 51118,
     distance: 2600000000,
-    price: 4,
+    scale: 4,
     rated: 4,
+    price: 9500
   },
   {
     name: 'Earth',
@@ -57,8 +62,9 @@ export const planeteList = [
     type: 'rock',
     diameter: 12742,
     distance: 0,
-    price: 1,
+    scale: 1,
     rated: 1,
+    price: 1000
   },
   {
     name: 'Haumea',
@@ -67,8 +73,9 @@ export const planeteList = [
     type: 'rock',
     diameter: 1960,
     distance: 6477000000,
-    price: 3,
+    scale: 3,
     rated: 2,
+    price: 2000
   },
   {
     name: 'Saturn',
@@ -77,9 +84,10 @@ export const planeteList = [
     type: 'gas',
     diameter: 120536,
     distance: 1276000000,
-    price: 4,
+    scale: 4,
     bestSale: true,
     rated: 4,
+    price: 7000
   },
   {
     name: 'Jupiter',
@@ -88,8 +96,9 @@ export const planeteList = [
     type: 'gas',
     diameter: 139822,
     distance: 628700000,
-    price: 4,
+    scale: 4,
     rated: 2,
+    price: 65000
   },
   {
     name: 'Mars',
@@ -98,9 +107,10 @@ export const planeteList = [
     type: 'rock',
     diameter: 6779,
     distance: 225000000,
-    price: 2,
+    scale: 2,
     bestSale: true,
     rated: 4,
+    price: 3000
   },
   {
     name: 'Moon',
@@ -109,7 +119,8 @@ export const planeteList = [
     type: 'rock',
     diameter: 3475,
     distance: 384400,
-    price: 2,
+    scale: 2,
     rated: 2,
+    price: 2000
   }
 ];

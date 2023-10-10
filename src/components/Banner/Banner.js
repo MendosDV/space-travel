@@ -14,7 +14,9 @@ function Banner ( { titleName, subTitleName, buttonName, secondButtonName }) {
           <SubTitle subTitleName={subTitleName}/>
         </div>
         <div className="banner-buttons">
+        <a href="https://www.youtube.com/watch?v=pcKdA2-W0X0" target="_blank" rel="noreferrer">
           <Button children={secondButtonName}/>
+        </a>
           <Button children={buttonName} buttonClass="white-button"/>
         </div>
       </div>

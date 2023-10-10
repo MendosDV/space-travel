@@ -45,6 +45,33 @@
   transition: 0.4s;
 }
 
+.round-green {
+  border-radius: 8px;
+  background-color: #82CA9C;
+  color: white;
+  border: none;
+}
+
+.round-green:hover {
+  color: white;
+  background-color: #6aa480;
+  transition: 0.3s;
+}
+
+.transparent-button {
+  background-color: none;
+  color: white;
+  border: solid 1px white;
+}
+
+.transparent-button:hover {
+  border: none;
+  background-color: rgb(30, 40, 185);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 @media screen and (min-width: 768px) {
   .button {
     font-size: 1em;

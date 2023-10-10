@@ -4,7 +4,7 @@ import { faWind, faMountainSun, faStar, faDollarSign } from '@fortawesome/free-s
 import { useState, useEffect } from 'react';
 import BuyItem from './BuyItem';
 
-function Card ( { name, image, type, diameter, distance, price, rated, bestSale }) {
+function Card ( { name, image, type, diameter, distance, scale, price, rated, bestSale, numberItem, addItem, cart, updateCart}) {
   const [sizeIcon, setSizeIcon] = useState("xl")
   const [sizeScreen, setSizeScreen] = useState(false)
   const paragraph = <p>Located at <span>{distance}</span> km from us and measures <span>{diameter}</span> km in diameter.</p>
@@ -63,7 +63,7 @@ function Card ( { name, image, type, diameter, distance, price, rated, bestSale 
 
   const renderPrice = () => {
     const dollars = [];
-    for (let i = 0; i < price; i++) {
+    for (let i = 0; i < scale; i++) {
       dollars.push(
         <FontAwesomeIcon
           icon={faDollarSign}
@@ -95,7 +95,7 @@ function Card ( { name, image, type, diameter, distance, price, rated, bestSale 
           <div>
             {renderPrice()}
           </div>
-          <BuyItem children="Add to cart" />
+          <BuyItem children="Add to cart" addItem={addItem} cart={cart} updateCart={updateCart} name={name} price={price} />
         </div>
       </div>
     </div>
