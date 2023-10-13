@@ -7,8 +7,10 @@ import Button from './Button'
 
 function Navbar({ burgerMenu }) {
   const [showNav, setShowNav] = useState(false);
+
   const handleShowBar = () => {
     setShowNav(!showNav);
+    showNav ? document.body.style.overflow = null : document.body.style.overflow = "hidden";
   }
 
   const navMenuClasses = showNav ? 'nav-menu-show show-nav-menu' : 'nav-menu-show';
@@ -21,7 +23,7 @@ function Navbar({ burgerMenu }) {
           <FontAwesomeIcon icon={faShuttleSpace} rotation={270} size="xl" style={{color: "#ffffff",}} />
         </div>
         { showNav ? (
-          <FontAwesomeIcon onClick={handleShowBar} icon={faXmark} size="xl" style={{color: "#ffffff", cursor: "pointer",}} />
+            <FontAwesomeIcon onClick={handleShowBar} icon={faXmark} size="xl" style={{color: "#ffffff", cursor: "pointer",}} />
           ) : (
             <FontAwesomeIcon onClick={handleShowBar} icon={faBars} size="xl" style={{color: "#ffffff", cursor: "pointer",}}/>
           )}
