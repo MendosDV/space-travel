@@ -1,4 +1,4 @@
-🚀 Space travel
+## 🚀 Space travel
 
 Ce projet est ma première application React permettant aux utilisateurs d'ajouter à leur panier et d'acheter des billets pour voyager sur une autre planète.
 
@@ -9,7 +9,7 @@ Ce projet est ma première application React permettant aux utilisateurs d'ajout
 - Possibilité d'ajouter au panier et de sélectionner le nombre de places souhaitées etc.
 - Possibilité de s'inscrire par mail pour recevoir une newsletter.
 - Site responsive.
-- 
+  
 ![Page accueil](https://github.com/MendosDV/space-travel/assets/130302103/30c69ad5-d623-427e-9421-f272ebd7fa35)
 
 ![Liste planètes](https://github.com/MendosDV/space-travel/assets/130302103/2fc0bc35-ca4d-40a6-9dcf-38be2d9c5bea)
