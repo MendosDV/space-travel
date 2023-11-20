@@ -1,3 +1,21 @@
+🚀 Space travel
+
+Ce projet est ma première application React permettant aux utilisateurs d'ajouter à leur panier et d'acheter des billets pour voyager sur une autre planète.
+
+⚙️ Fonctionnalités
+
+- Affichage des planètes par catégorie : Rocheuse ou Gazeuse.
+- Les utilisateurs peuvent voir les détails des planètes avec notation, meilleure vente, prix et description. 
+- Possibilité d'ajouter au panier et de sélectionner le nombre de places souhaitées etc.
+- Possibilité de s'inscrire par mail pour recevoir une newsletter.
+- Site responsive.
+
+👨‍💻 Technologies utilisées
+
+- React
+- HTML
+- SCSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
