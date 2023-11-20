@@ -5,7 +5,10 @@ import { useEffect } from 'react';
 
 function Cart ({ setNumberItem, cart, updateCart }) {
   const total = cart.reduce((acc, { price, amount }) => acc + price * amount, 0);
-  const alertPay = "You have to pay " + total + " $";
+
+  const alertPay = () => {
+    return total > 0 ? alert(`You have to pay ${total} $`) : alert("You have nothing in your cart")
+  }
 
   useEffect(() => {
     if (total !== 0) {
@@ -36,7 +39,7 @@ function Cart ({ setNumberItem, cart, updateCart }) {
       )}
       <div className='cart-bottom'>
         <div className='cart-total'>TOTAL: ${total}</div>
-        <Button children={"Checkout"} buttonClass="round-green" onClick={() => alert(alertPay)}/>
+        <Button children={"Checkout"} buttonClass="round-green" onClick={() => alertPay()}/>
       </div>
     </div>
   )
